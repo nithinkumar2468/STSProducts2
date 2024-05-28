@@ -53,7 +53,7 @@ public class Products2Controller {
 	@DeleteMapping("/product2/{id}")
 	String deleteProduct(@PathVariable Long id) {
 		prodService.delete(id);
-		return "User with id " + id + " has been deleted success.";
+		return "Product with id " + id + " has been deleted success.";
 	}
 
 }
