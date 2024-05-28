@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://monorail.proxy.rlwy.net:11316/railway
+    password: koCXMtSMofhtYkOMYbrFxRrThUsrDSBt
+  application:
+    name: products2
+  cloud:
+    config:
+      enabled: 'false'
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+server:
+  port: '8081'
+  
