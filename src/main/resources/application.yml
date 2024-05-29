@@ -1,9 +1,9 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    url: jdbc:mysql://monorail.proxy.rlwy.net:11316/railway
-    password: koCXMtSMofhtYkOMYbrFxRrThUsrDSBt
+  data:
+    mongodb:
+      database: CRM
+      port: '27017'
+      uri: mongodb+srv://root:mongodb@crm.5fnyhlo.mongodb.net/?retryWrites=true&w=majority&appName=CRM
   application:
     name: products2
   cloud:
